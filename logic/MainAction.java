@@ -9,10 +9,10 @@ import ru.epam.jonline.module4.simple_class.airline.view.ViewAction;
 
 public class MainAction {
 
-	ServiceAction service = new ServiceAction();
-	ViewAction view = new ViewAction();
+	private ServiceAction service = new ServiceAction();
+	private ViewAction view = new ViewAction();
 
-	Airlines result;
+	private Airlines result;
 
 	public Airlines airlinesInDest(Airlines airlines) {
 
